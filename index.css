@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #0F172A;
+}
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    
+    width:50%;
+    display:grid;
+    justify-content: center;
+    color:white;
+    position: sticky;
+    top:0;
+}
+.sticky{
+    margin:0.2em;
+    height:10%;
+    position: sticky;
+    top:0;
+}
+.right{
+ 
+    width:50%;
+   
+    display:grid;
+    justify-content: start;
+    color:white;
+}
+.personalinfo h1{
+    margin:0;
+    padding: 0;
+    font-size: 2em;
+}
+.personalinfo h3{
+    font-size: 1.7em;
+}
+.personalinfo p{
+    font-size: 1.3em;
+}
+.details nav{
+    margin-top:4em;
+}
+.details nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.details nav ul li{
+    margin:1em;
+    border-width: 0%;
+    transition: width 1s ease,transform 0.6s ease;
+}
+.details nav ul li:hover{
+    transform: translateX(2em);
+}
+.details nav ul li:hover a{
+    border-width: 100%;
+    border-bottom:2px solid aquamarine;
+}
+
+.details nav ul li a{
+   text-decoration: none;
+   color:white;
+   font-size: 1.3em;
+  
+}
+.contactinfo nav{
+    margin:4em;
+}
+.contactinfo nav ul{
+    list-style: none;
+    display: flex;
+    padding:0;
+    margin:0;
+}
+.contactinfo nav ul li{
+    margin:1em;
+}
+.contactinfo nav ul li a{
+    color:white;
+    font-size: 2em;
+}
+.contactinfo nav ul li a i{
+    transition:transform 1s;
+}
+.contactinfo nav ul li a i:hover{
+    transform: translateY(-0.4em);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255, 0.7);
+    transition-duration: 1s;
+}
+#about h1{
+    margin:0;
+    font-size: 1.7em;
+    padding-left: 0.4em;
+}
+#about p{
+    margin:0;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 0.4em;
+}
+#education{
+    padding:0.4em;
+}
+.one{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin:1em;
+    transition:transform 0.5s ease;
+}
+.one p{
+    color:rgba(255, 255, 255, 0.6);
+}
+.one:hover{
+    transform: translateY(-1em);
+    background-color: rgba(255, 255, 255, 0.1);
+    border:1px solid rgba(255, 255, 255);
+    border-radius: 10%;
+    cursor: pointer;
+}
+.one:hover h1{
+    color:aquamarine;
+} 
+.one h3{
+    margin:0;
+    font-size: 1em;
+}
+.one h1{
+    margin:0;
+    padding: 0;
+    font-size: 1.3em;
+}
+.oneright{
+    padding: 0;
+    width:80%;
+}
+.view_resume a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 0.4em;
+    margin:0.7em 0em 0.7em 0em ;
+}
+.proje{
+    padding: 0.4em;  
+}
+.proj1{
+    display:flex;
+    justify-content: space-between;
+    padding: 0.4em;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: transform 0.7s;
+}
+.projleft{
+    border: 2px soild red;
+    margin: 0.3em;
+    width:2%;
+    height:10%;
+    background-color:white;
+    border-top-left-radius:20%;
+    border-bottom-left-radius:20%;
+    display:flex;
+    align-items: center;
+    transition: height 0.5s ease, transform 0.5s ease;
+}
+.projright p{
+    color:rgba(255, 255, 255,0.5);
+}
+.proj1:hover .projleft{
+    height: 92%;
+    transition-duration: 2s;
+}
+.proj1:hover .projright h1{
+    color:aquamarine;
+}
+.proj1:hover{
+    transform:translateY(-1em);
+    transition-duration: 0.6s;
+    background-color:rgba(255, 255, 255,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.759);
+    border-radius: 08%;
+}
+.projright{
+    width:97%;
+}
